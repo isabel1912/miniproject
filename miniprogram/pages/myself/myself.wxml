@@ -1,0 +1,27 @@
+<!--miniprogram/pages/myself/myself.wxml-->
+<view class="container">
+  <view class="myself">
+    <view class="item">
+      <image class="avatar" src="{{avatarUrl}}" />
+      <text wx:if="{{logged}}">{{nickName}}</text>
+      <button wx:else open-type="getUserInfo" disabled="{{disabled}}" bindgetuserinfo="onGetUserInfo">请登录</button>
+    </view>
+    <view wx:if="{{logged}}">
+      <navigator url="{{'../detail/detail?userID=' + id}}" open-type="navigate">
+        <view class="item">
+          <text>主页</text>
+        </view>
+      </navigator>
+      <navigator url="../editUserInfo/editUserInfo" open-type="navigate">
+        <view class="item">
+          <text>个人信息</text>
+        </view>
+      </navigator>
+      <navigator url="../friendList/friendList" open-type="navigate">
+        <view class="item">
+          <text>好友</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

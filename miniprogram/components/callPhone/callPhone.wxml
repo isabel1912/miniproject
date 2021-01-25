@@ -1,0 +1,2 @@
+<!--components/callPhone/callPhone.wxml-->
+<text wx:if="{{phoneNumber}}" class="iconfont call" bindtap="callPhone"></text>

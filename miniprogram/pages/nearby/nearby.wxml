@@ -1,0 +1,6 @@
+<!--miniprogram/pages/nearby/nearby.wxml-->
+<view class="contanier">
+  <map id="myLocation" style="width:100%; height:100%" latitude="{{latitude}}" longitude="{{longitude}}"
+    bindmarkertap="markertap" bindcallouttap="callouttap" bindlabeltap="labeltap" markers="{{markers}}" scale="16" show-location="true">
+  </map>
+</view>

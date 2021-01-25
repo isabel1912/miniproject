@@ -1,0 +1,8 @@
+<!--components/remove/remove.wxml-->
+<movable-area class="remove">
+  <movable-view bindtap="handleAddFriend" class="item" direction="horizontal">{{userMessage.nickName}}</movable-view>
+  <navigator url="{{'../../pages/detail/detail?userID=' + userMessage._id}}" open-type="navigate">
+    <image src="{{userMessage.userPhoto}}"></image>
+  </navigator>
+  <view class="text" bindtap="handleRemove">删除</view>
+</movable-area>

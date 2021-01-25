@@ -1,0 +1,5 @@
+/* miniprogram/pages/editUserInfo/phone/phone.wxss */
+.editinfo{
+  width: 94%;
+  margin: 20rpx auto;
+}

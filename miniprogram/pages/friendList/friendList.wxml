@@ -1,0 +1,16 @@
+<!--miniprogram/pages/friendList/friendList.wxml-->
+<view class="container">
+  <view class="friendlist" wx:if="{{logged}}">
+    <view wx:if="{{!friendList.length}}">
+      <view class="empty">暂无消息</view>
+    </view>
+    <view wx:else class="list">
+      <navigator wx:for="{{ friendList }}" wx:key="{{ index }}" url="{{'../../pages/detail/detail?userID=' + item._id}}" open-type="navigate">
+        <view class="item">
+          <image class="userinfo-avatar" src="{{item.userPhoto}}"></image>
+          <text>{{item.nickName}}</text>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

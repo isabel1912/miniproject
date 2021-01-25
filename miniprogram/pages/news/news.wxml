@@ -1,0 +1,11 @@
+<!--miniprogram/pages/news/news.wxml-->
+<view class="container">
+  <view class="news" wx:if="{{logged}}">
+    <view wx:if="{{!userMessage.length}}">
+      <view class="empty">暂无消息</view>
+    </view>
+    <view wx:else class="list">
+      <remove wx:for="{{ userMessage }}" wx:key="{{ index }}" messageId="{{ item }}" bindmyevent="onMyEvent" />
+    </view>
+  </view>
+</view>

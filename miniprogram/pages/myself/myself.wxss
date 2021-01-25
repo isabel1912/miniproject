@@ -1,0 +1,19 @@
+/* miniprogram/pages/myself/myself.wxss */
+.myself {
+  width: 100%;
+}
+
+.myself .item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 30rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eee;
+}
+
+.myself .item .avatar{
+  margin-right: 30rpx;
+  border-radius: 100%;
+}

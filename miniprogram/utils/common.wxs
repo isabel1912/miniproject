@@ -1,0 +1,21 @@
+var wordSplit = function (name) {
+  if (name.length > 4) {
+    name = name.substring(0, 4) + '...'
+  }
+  return name
+}
+
+var linksSplit = function (links) {
+  if (!links) {
+    links = 0
+  } else if ((links > 999 && links <= 10000)) {
+    links = parseInt(links / 1000) + "K"
+  } else if (links > 9999 && links <= 9999999) {
+    links = parseInt(links / 10000) + "W"
+  } else if (links > 9999999) {
+    links = parseInt(links / 10000000) + "M";
+  }
+  return links
+}
+module.exports.wordSplit = wordSplit
+module.exports.linksSplit = linksSplit

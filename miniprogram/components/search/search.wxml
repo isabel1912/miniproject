@@ -1,0 +1,28 @@
+<!--components/searchComponents.wxml-->
+<view class="search-box {{isFocus?'open':''}}">
+  <view class="flex-box input-box">
+    <input placeholder-class="text-color" type="text" placeholder="没有脚趾星人" value="{{value}}" bindfocus="handlefocus"
+      bindblur="handleblur" bindconfirm="handleConfirm" confirm-type="search" />
+    <!-- <input bindfocus="handlefocus" bindblur="handleblur" bindconfirm="handleConfirm" confirm-type="search"
+      placeholder-class="text-color" type="text" placeholder="没有脚趾星人" /> -->
+    <text class="iconfont iconsearch"></text>
+    <text bindtap="handleCancel" class="iconfont iconclose"></text>
+  </view>
+  <view class="result">
+    <view class="flex-box">
+      <text>历史记录</text>
+      <text bindtap="clearHistory" class="iconfont icondelete"></text>
+    </view>
+    <view class="history">
+      <text bindtap="handleResearch" data-text="{{item}}" wx:for="{{historyList}}" wx:key="{{index}}">{{item}}</text>
+    </view>
+    <view class="searchList">
+      <navigator class="item" wx:for="{{ searchList }}" wx:key="{{ index }}"
+        url="{{'../../pages/detail/detail?userID=' + item._id}}" open-type="navigate">
+        <image class="userinfo-avatar" src="{{item.userPhoto}}"></image>
+        <text>{{item.nickName}}</text>
+      </navigator>
+    </view>
+
+  </view>
+</view>

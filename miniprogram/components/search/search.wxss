@@ -1,0 +1,116 @@
+/* components/searchComponents.wxss */
+@import "../../iconfont.wxss";
+
+.search-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.search-box.open {
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 10px 15px rgba(177, 177, 177, 0.5);
+}
+
+.search-box.open .text-color {
+  color: #888;
+}
+.search-box.open .input-box .iconsearch{
+  display: none;
+}
+.search-box.open .input-box .iconclose{
+  display: block;
+}
+.search-box.open .input-box .iconsearch,
+.search-box.open .input-box .iconclose {
+  color: #888;
+}
+
+.search-box.open .result {
+  overflow-y: scroll;
+  display: block;
+  height: 85%;
+  margin-top: 20px;
+  border-bottom: 0;
+}
+
+.search-box.open .input-box {
+  box-shadow: 0 10px 15px rgba(177, 177, 177, 0.5);
+  text-shadow: none;
+}
+
+.search-box .flex-box {
+  display: flex;
+}
+
+.search-box .text-color {
+  color: #fff;
+}
+
+.search-box .flex-box.input-box {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.search-box .input-box {
+  box-shadow: 0 0 15px rgba(65, 65, 65, 0.5) inset;
+  text-shadow: 0 0 2px rgba(65, 65, 65, 0.9);
+}
+
+.search-box .input-box input {
+  width: 80%;
+  border: 0;
+  background: transparent;
+}
+
+.search-box .input-box .iconsearch,
+.search-box .input-box .iconclose {
+  font-size: 24px;
+  color: #fff;
+}
+.search-box .input-box .iconclose{
+  display: none;
+}
+
+.search-box .result {
+  display: none;
+}
+
+.search-box .result .history{
+  display: flex;
+  background: #eee;
+}
+
+.search-box .result .history text{
+  display: inline-block;
+  color: rgb(52, 137, 255);
+  padding: 1% 2%;
+  margin: 3%;
+  border-radius: 20rpx;
+  background: rgb(211, 229, 255); 
+}
+
+.search-box .result .flex-box{
+  padding: 3%;
+  justify-content: space-between;
+}
+
+.searchList .item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+}
+
+.searchList .item+.item{
+  border-top: 1rpx solid #eee;
+}
+
+.searchList .item image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+}

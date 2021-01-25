@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/myself/myself",
+    "pages/nearby/nearby",
+    "pages/news/news",
+    "pages/friendList/friendList",
+    "pages/editUserInfo/editUserInfo",
+    "pages/editUserInfo/head/head",
+    "pages/editUserInfo/name/name",
+    "pages/editUserInfo/signature/signature",
+    "pages/editUserInfo/location/location",
+    "pages/editUserInfo/weixin/weixin",
+    "pages/editUserInfo/phone/phone",
+    "pages/detail/detail",
+    "components/copy/copy"
+  ],
+  "window": {
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "没有脚踝星人",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#000",
+    "color": "#666",
+    "selectedColor": "#fff",
+    "list": [{
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_select.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/nearby.png",
+        "selectedIconPath": "images/nearby_select.png",
+        "pagePath": "pages/nearby/nearby",
+        "text": "附近"
+      },
+      {
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news_select.png",
+        "pagePath": "pages/news/news",
+        "text": "消息"
+      },
+      {
+        "iconPath": "images/myself.png",
+        "selectedIconPath": "images/myself_select.png",
+        "pagePath": "pages/myself/myself",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "entryPagePath": "pages/index/index",
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

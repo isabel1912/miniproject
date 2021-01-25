@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "remove":"../../components/remove/remove"
+  }
+}

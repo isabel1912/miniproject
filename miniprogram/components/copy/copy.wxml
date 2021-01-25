@@ -1,0 +1,2 @@
+<!--components/copy/copy.wxml-->
+<text wx:if="{{copyText}}" class="iconfont copy" bindtap="handleCopy"></text>

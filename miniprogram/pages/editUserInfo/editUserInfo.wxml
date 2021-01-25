@@ -1,0 +1,23 @@
+<!--miniprogram/pages/editUserInfo/editUserIfo.wxml-->
+<view class="container">
+  <view class="editinfo">
+    <navigator url="./head/head" open-type="navigate">
+      <view class="item">修改头像</view>
+    </navigator>
+    <navigator url="./name/name" open-type="navigate">
+      <view class="item">修改昵称</view>
+    </navigator>
+    <navigator url="./signature/signature" open-type="navigate">
+      <view class="item">修改个性签名</view>
+    </navigator>
+    <navigator url="./location/location" open-type="navigate">
+      <view class="item">共享位置</view>
+    </navigator>
+    <navigator url="./phone/phone" open-type="navigate">
+      <view class="item">设置手机号<text class="tips">仅好友可见</text></view>
+    </navigator>
+    <navigator url="./weixin/weixin" open-type="navigate">
+      <view class="item">设置微信号<text class="tips">仅好友可见</text></view>
+    </navigator>
+  </view>
+</view>

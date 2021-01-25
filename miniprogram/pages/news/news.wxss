@@ -1,0 +1,9 @@
+/* miniprogram/pages/news/news.wxss */
+.news{
+  width: 100%;
+  padding-top: 20rpx;
+}
+.news .empty{
+  width: 100%;
+  text-align: center;
+}

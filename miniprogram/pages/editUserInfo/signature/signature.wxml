@@ -1,0 +1,11 @@
+<!--miniprogram/pages/editUserInfo/signature/signature.wxml-->
+<view class="container">
+  <view class="editinfo">
+    <input type="text" value="{{signature}}" bindinput="handleText" />
+    <button bindtap="update">设置个性签名</button>
+    <!-- <form bindsubmit="bindFormSubmit">
+      <textarea placeholder="请输入" value="{{signature}}" auto-focus name="textarea" />
+      <button form-type="submit">设置个性签名</button>
+  </form> -->
+  </view>
+</view>

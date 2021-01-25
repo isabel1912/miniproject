@@ -1,0 +1,8 @@
+<!--miniprogram/pages/editUserInfo/head/head.wxml-->
+<view class="container">
+  <view class="editinfo">
+    <image bindtap="handleUploadImage" class="avatar" src="{{avatarUrl}}" />
+    <button bindtap="update">自定义</button>
+    <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">微信头像</button>
+  </view>
+</view>

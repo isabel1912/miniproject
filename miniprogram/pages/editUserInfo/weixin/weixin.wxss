@@ -1,0 +1,5 @@
+/* miniprogram/pages/editUserInfo/weixin/weixin.wxss */
+.editinfo{
+  width: 94%;
+  margin: 20rpx auto;
+}
