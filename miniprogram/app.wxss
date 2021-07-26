@@ -1,7 +1,7 @@
 @import "iconfont.wxss";
 
 /**app.wxss**/
-.pr20{
+.pr20 {
   padding-right: 20rpx;
 }
 
@@ -175,9 +175,44 @@ page {
   font-size: 32rpx;
 }
 
-textarea,input {
+textarea,
+input {
   width: 96%;
   padding: 20rpx;
   background: #fff;
   border: 1px solid #eee;
+}
+
+.common-box{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.common-title {
+  position: relative;
+  width: 95%;
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.common-title::after {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  content: " ";
+  width: 6px;
+  height: 20px;
+  border-radius: 10px;
+  background: #3399CC;
+}
+
+.common-btn{
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  background-color: #11264f;
+  text-align: center;
+  color: #fff;
 }

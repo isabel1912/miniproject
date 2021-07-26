@@ -232,3 +232,35 @@ page {
 .iconfont {
   padding-right: 10rpx;
 }
+
+.index-shop{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.index-shop .item{
+  padding: 14px;
+  border-radius: 4%;
+  color: #fff;
+}
+
+.index-shop .item1{
+  background-color: #f47920;
+}
+.index-shop .item2{
+  background-color: #2a5caa;
+}
+.index-shop .item3{
+  background-color: #ed1941;
+}
+
+.index-shop .icon{
+  font-size: 25px;
+  font-weight: bold;
+}
+.index-shop .title{
+  padding-top: 10px;
+}

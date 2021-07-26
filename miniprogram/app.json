@@ -25,20 +25,23 @@
     "pages/editUserInfo/weixin/weixin",
     "pages/editUserInfo/phone/phone",
     "pages/detail/detail",
-    "components/copy/copy"
+    "components/copy/copy",
+    "pages/shop/shop",
+    "pages/aboutus/aboutus"
   ],
   "window": {
-    "backgroundColor": "#000",
+    "backgroundColor": "#11264f",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "没有脚踝星人",
+    "navigationBarBackgroundColor": "#11264f",
+    "navigationBarTitleText": "合肥新井岗机动车检测中心",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "backgroundColor": "#000",
+    "backgroundColor": "#11264f",
     "color": "#666",
     "selectedColor": "#fff",
-    "list": [{
+    "list": [
+      {
         "iconPath": "images/index.png",
         "selectedIconPath": "images/index_select.png",
         "pagePath": "pages/index/index",
@@ -47,20 +50,20 @@
       {
         "iconPath": "images/nearby.png",
         "selectedIconPath": "images/nearby_select.png",
-        "pagePath": "pages/nearby/nearby",
-        "text": "附近"
-      },
-      {
-        "iconPath": "images/news.png",
-        "selectedIconPath": "images/news_select.png",
-        "pagePath": "pages/news/news",
-        "text": "消息"
+        "pagePath": "pages/shop/shop",
+        "text": "商场活动"
       },
       {
         "iconPath": "images/myself.png",
         "selectedIconPath": "images/myself_select.png",
         "pagePath": "pages/myself/myself",
-        "text": "我的"
+        "text": "个人中心"
+      },
+      {
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news_select.png",
+        "pagePath": "pages/aboutus/aboutus",
+        "text": "关于我们"
       }
     ]
   },
@@ -69,7 +72,7 @@
       "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
   },
-  "entryPagePath": "pages/index/index",
+  "entryPagePath": "pages/shop/shop",
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }

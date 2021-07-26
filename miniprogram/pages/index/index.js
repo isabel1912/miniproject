@@ -49,6 +49,7 @@ Page({
 
   pageInit: function () {
     this.getBannerImgs()
+    console.log(this.getBannerImgs())
     db.collection('users').field({
       userPhoto: true,
       nickName: true,
@@ -179,10 +180,26 @@ Page({
     })
   },
   getBannerImgs: function () {
-    db.collection('banner').orderBy('file_time', 'desc').limit(3).get().then((res) => {
-      this.setData({
-        bannerImgs: res.data
-      })
+    this.setData({
+          bannerImgs: [
+            {
+              id:1,
+              fileId:'/images/banner1.jpg'
+            },
+            {
+              id:2,
+              fileId:'/images/banner2.jpg'
+            },
+            {
+              id:3,
+              fileId:'/images/banner3.jpg'
+            }
+          ]
     })
+    // db.collection('banner').orderBy('file_time', 'desc').limit(3).get().then((res) => {
+    //   this.setData({
+    //     bannerImgs: res.data
+    //   })
+    // })
   }
 })

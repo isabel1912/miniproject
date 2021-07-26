@@ -1,0 +1,53 @@
+<!--miniprogram/pages/shop/shop.wxml-->
+<view class="container">
+  <view class="swiper-box">
+    <swiper class="swiper" indicator-dots="{{true}}" autoplay="{{true}}">
+      <block wx:for="{{bannerImgs}}" wx:key="*this">
+        <navigator>
+          <swiper-item>
+            <image mode="aspectFill" src="{{item.fileId}}"></image>
+          </swiper-item>
+        </navigator>
+      </block>
+    </swiper>
+  </view>
+  <view class="common-box extension">
+    <view class="common-title">软文推广（暂定）</view>
+    <navigator>
+      <view class="item">
+        <image mode="aspectFill" src="../../images/banner1.jpg"></image>
+        <view>内容内容内容</view>
+      </view>
+    </navigator>
+    <navigator>
+      <view class="item">
+        <image mode="aspectFill" src="../../images/banner1.jpg"></image>
+        <view>内容内容内容</view>
+      </view>
+    </navigator>
+    <navigator>
+      <view class="item">
+        <image mode="aspectFill" src="../../images/banner1.jpg"></image>
+        <view>内容内容内容</view>
+      </view>
+    </navigator>
+    <navigator>
+      <view class="item">
+        <image mode="aspectFill" src="../../images/banner1.jpg"></image>
+        <view>内容内容内容</view>
+      </view>
+    </navigator>
+    <navigator>
+      <view class="item">
+        <image mode="aspectFill" src="../../images/banner1.jpg"></image>
+        <view>内容内容内容</view>
+      </view>
+    </navigator>
+    <navigator>
+      <view class="item">
+        <image mode="aspectFill" src="../../images/banner1.jpg"></image>
+        <view>内容内容内容</view>
+      </view>
+    </navigator>
+  </view>
+</view>

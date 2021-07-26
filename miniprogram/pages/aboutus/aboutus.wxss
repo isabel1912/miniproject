@@ -1,0 +1,30 @@
+/* miniprogram/pages/aboutus/aboutus.wxss */
+.explain {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  border-top: 2px solid #ccc;
+  background-color: #fff;
+}
+
+.question {
+  padding-bottom: 16px;
+  color: #FF9900;
+}
+
+.question .iconfont {
+  margin-right: 10px;
+}
+
+.answer {
+  color: #666;
+}
+
+.introduce {
+  color: #666;
+}
+
+.question-btn {
+  position: fixed;
+  bottom: 5%;
+}

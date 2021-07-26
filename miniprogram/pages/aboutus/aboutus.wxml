@@ -1,0 +1,37 @@
+<!--miniprogram/pages/aboutus/aboutus.wxml-->
+<view class="container">
+  <view class="common-box">
+    <view class="common-title">站内介绍</view>
+    <view class="content-box introduce">
+      站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍站内介绍
+    </view>
+  </view>
+  <view class="common-box">
+    <view class="common-title">常见问题</view>
+    <view class="explain">
+      <view class="question"><text class="iconfont iconsearch"></text>常见问题常见问题常见问题常见问题常见问题常见问题?</view>
+      <view class="answer">答：常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题.</view>
+    </view>
+    <view class="explain">
+      <view class="question">问：常见问题常见问题常见问题常见问题常见问题常见问题?</view>
+      <view class="answer">答：常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题.</view>
+    </view>
+    <view class="explain">
+      <view class="question">问：常见问题常见问题常见问题常见问题常见问题常见问题?</view>
+      <view class="answer">答：常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题.</view>
+    </view>
+    <view class="explain">
+      <view class="question">问：常见问题常见问题常见问题常见问题常见问题常见问题?</view>
+      <view class="answer">答：常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题.</view>
+    </view>
+    <view class="explain">
+      <view class="question">问：常见问题常见问题常见问题常见问题常见问题常见问题?</view>
+      <view class="answer">答：常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题.</view>
+    </view>
+    <view class="explain">
+      <view class="question">问：常见问题常见问题常见问题常见问题常见问题常见问题?</view>
+      <view class="answer">答：常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题常见问题.</view>
+    </view>
+  </view>
+  <view class="common-btn question-btn">我要提问</view>
+</view>

@@ -1,0 +1,21 @@
+/* miniprogram/pages/shop/shop.wxss */
+.swiper-box {
+  width: 100%;
+  height: 150px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.extension .item{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.extension .item image{
+  width: 100px;
+  height: 100px;
+  margin-right: 16px;
+}
